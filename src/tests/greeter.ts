@@ -1,4 +1,10 @@
-class Greeter{
+export interface Setting{
+    title:string;
+    name:string;
+}
+
+
+export class Greeter{
     private _title:string;
     set title(msg: string){
         this._title = msg;
